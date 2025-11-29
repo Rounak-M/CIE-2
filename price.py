@@ -12,7 +12,7 @@ else:
     p3 = 0
     p4 = 0
 
-avg = p1 + p2 + p3 + p4 / 4
+avg = (float(p1) + float(p2) + float(p3) + float(p4)) / 4
 
 if (avg > 0):
     print (f"Average Price: ", {avg})
